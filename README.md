@@ -242,9 +242,9 @@ supply-chain-analytics-dashboard/
 │
 ├── screenshots/
 │   ├── 01-executive-overview.png
-│   ├── 02-sales-analysis.png
-│   ├── 03-inventory-analysis.png
-│   ├── 04-movements-analysis.png
+│   ├── 02-sales-overview.png
+│   ├── 03-inventory-overview.png
+│   ├── 04-movements-overview.png
 │   └── 05-data-model.png
 │
 └── reports/
