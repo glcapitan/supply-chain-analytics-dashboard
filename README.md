@@ -1,8 +1,8 @@
 # Supply Chain Analytics Dashboard
 
-**Turning inventory data into executive action.**
+**End-to-End BI Case Study: Turning Inventory Data into Executive Action**
 
-An end-to-end BI case study for a mid-size omnichannel retailer, built from raw sales, inventory, and movement data into a Power BI executive dashboard, Kimball-style analytical model, and leadership-ready findings deck.
+An end-to-end BI project for a mid-size omnichannel retailer, built from raw sales, inventory, and movement data into a Power BI executive dashboard, Kimball-style analytical model, and leadership-ready findings deck.
 
 The key finding: the business did **not** have a stockout problem. It had an **overstock problem**.
 
@@ -55,7 +55,7 @@ The goal was not just to build another dashboard. The goal was to answer:
 3. Are replenishment flows aligned with sell-through?
 4. Where is working capital trapped, and what action should be taken?
 
-Full write-up: [`docs/01-business-context.md`](docs/01-business-context.md)
+Full business context: [`docs/01-business-context.md`](docs/01-business-context.md)
 
 ---
 
@@ -63,7 +63,7 @@ Full write-up: [`docs/01-business-context.md`](docs/01-business-context.md)
 
 ### 1. Demand is concentrated, not completely failing
 
-Total sales reached **$715K**, down **-11.3% YoY**. Electronics generated **42% of total revenue** or approximately **$304K**, creating single-category dependency risk.
+Total sales reached **$715K**, down **-11.3% YoY**. Electronics generated **42% of total revenue**, or approximately **$304K**, creating single-category dependency risk.
 
 The issue was not a total demand collapse. The bigger risk was that revenue depended heavily on one category, while secondary categories were not strong enough to absorb a slowdown.
 
@@ -151,7 +151,7 @@ Raw Sources
 | Gold | Business-ready dimensional model exported as Parquet |
 | Power BI | Semantic layer, DAX measures, dashboard pages, and executive storytelling |
 
-Full write-up: [`docs/02-architecture.md`](docs/02-architecture.md)
+Full architecture documentation: [`docs/02-architecture.md`](docs/02-architecture.md)
 
 ---
 
@@ -159,11 +159,7 @@ Full write-up: [`docs/02-architecture.md`](docs/02-architecture.md)
 
 The Power BI model uses shared Product, Date, and Location dimensions across sales, inventory snapshots, movement events, and inventory exposure fact tables.
 
-> Add your model view screenshot here after uploading it to the `screenshots/` folder.
-
-```markdown
 ![Power BI Data Model](screenshots/05-data-model.png)
-```
 
 | Table Type | Tables |
 |---|---|
@@ -173,7 +169,7 @@ The Power BI model uses shared Product, Date, and Location dimensions across sal
 
 The model supports sales analysis, inventory health monitoring, movement flow analysis, Days of Supply logic, and SKU-level action recommendations.
 
-Full documentation: [`docs/03-data-model.md`](docs/03-data-model.md)
+Full data model documentation: [`docs/03-data-model.md`](docs/03-data-model.md)
 
 ---
 
