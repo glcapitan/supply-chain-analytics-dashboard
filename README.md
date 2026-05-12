@@ -219,6 +219,7 @@ supply-chain-analytics-dashboard/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
+├── requirements.txt
 │
 ├── docs/
 │   ├── 01-business-context.md
